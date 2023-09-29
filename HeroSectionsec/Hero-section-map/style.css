@@ -18,9 +18,10 @@ body{
 .main-hero-section-map {
   position: relative;
   box-sizing: border-box;
-  height: 600px;
+  height: 100vh;
   width: 100%;
   overflow: scroll;
+  pointer-events: none;
 }
 
 .main-hero-section-map-background {
@@ -28,7 +29,9 @@ body{
   position: relative;
   zoom: 65%;
   z-index: -4;
+  pointer-events: none;
 }
+
 .main-hero-section-map::-webkit-scrollbar {
   display: none;
 }
